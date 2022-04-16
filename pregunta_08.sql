@@ -40,4 +40,4 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
+    SELECT substr(c23,1,4) as YEAR, avg(c21) FROM tbl2 GROUP BY substr(c23,1,4);
